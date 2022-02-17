@@ -13,7 +13,7 @@ trigger:
 
 ## Define the agent pool server whether it is MS / Self hosted
 pool:
-  vmImage: 'Ubuntu-16.04'
+  vmImage: 'Ubuntu-latest'
 
 # Define the build number which consists of pipeline name, buildID and git commit SHA
 # build_pipeline_name is a custom variable which can set it under the Azure DevOps build definition. 
